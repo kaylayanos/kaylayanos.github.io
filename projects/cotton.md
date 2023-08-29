@@ -2,13 +2,13 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: "About Me Website"
+date: 2021
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - HTML
+  - CSS
+summary: "A website I made for my ICS 101 class. I learned the very basics of HTML and CSS."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
