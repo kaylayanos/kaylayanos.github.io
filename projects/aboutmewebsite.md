@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/about-me-screenshot.png
 title: "About Me Website"
-date: 2023
+date: 2021
 published: true
 labels:
   - HTMS
