@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/about-me-screenshot.png
 title: "About Me Website"
 date: 2023
 published: true
