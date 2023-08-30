@@ -4,13 +4,12 @@
     "label": "Student",
     "picture": "https://github.com/kaylayanos.png",
     "email": "yanosk@hawaii.edu",
-    "phone": "808-439-5222",
     "website": "https://kaylayanos.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "kaylayanos", "url": "http://github.com/kaylayanos" },
-      { "network": "linkedin", "username": "", "url": "https://www.linkedin.com/in/kayla-yanos-75266624b/" },
+      { "network": "linkedin", "username": "Kayla Yanos", "url": "https://www.linkedin.com/in/kayla-yanos-75266624b/" },
     ]
   },
   "interests": [
