@@ -22,19 +22,19 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Java", "C", "C++", "Javascript"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Git/GitHub"]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2025)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "Fall 2021",
       "endDate": "Present",
       "courses": [
       ]
@@ -42,70 +42,45 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "University of Hawaii at Manoa",
+      "position": "Front Desk Student Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2022-07-26",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Student Assistant",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Work independently/in group setting to complete projects with minimum supervision",
+        "Ability to recognize problems, identify possible causes, and resolve issues that commonly arises in customer/student/administrative services", 
+        "Assist students at the front desk: answer questions and make appropriate referrals to campus offices and advising units, schedule appointments via phone or in person", 
+        "Clerical work: filing, photocopying, updating evaluation database.",
+        "Social media management"
       ]
     },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
+    
   ],
-  "volunteer": [
+  "Activities": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Supporting Women in Information Technology Hawaii (SWITCH)",
+      "website": "",
+      "position": "Fundraising Director",
+      "startDate": "Spring 2023",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Manage Club Finances",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Handle and manage funds related to club events",
+        "Create and present budget for club events",
+        "Plan fundraisers",
       ]
     },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
+
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
+      "title": "Deans List",
       "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Maintained a GPA of 3.5 or higher."
     },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
   ],
   "references": [
     {
