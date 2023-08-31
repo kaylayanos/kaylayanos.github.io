@@ -20,4 +20,38 @@ Out of all the assignments in this class, this would be the most challening. I s
 ## Overall
 Overall, from this project, I was able to understand how pointers in C work. I was able to implement them and in the end, was able to complete everything including the writeFile and readFile functions. This project not only taught me implementation and code, but it also help me realize how bad my study/work habits were. The first project was to implement this code in C and like most college students, I procrastinated. In the end, I was able to finish it, but there were some errors with the writeFile and readFile functions. However, we did get a chance to write the code again, but in C++. This time I knew what to expect and set times to sit down and work. This helped me a lot because in the end, I was able to manage my time and completed and got everything to work!
 
+Here is a snippit of code for on my functions:
+```c
+int findRecord(struct record *start, int uaccountno)
+{
+    struct record *temp = start;
+    int value;
+    value = 0; /* 0 -> failed, 1 -> success */
 
+    if (debugmode == 1)
+    {
+        printf("FIND RECORD FUNCTION CALLED\n");
+        printf("ACCOUNT NO TO FIND: %d\n", temp->accountno);
+    }
+
+    do
+    {
+        if (temp->accountno == uaccountno)
+        {
+            printf("Account number: %d\n", temp->accountno);
+            printf("Name: %s\n", temp->name);
+            printf("Address: %s\n", temp->address);
+            value = 1;
+        }
+        temp = temp->next;
+    } while (temp != NULL);
+
+    if (value != 1)
+    {
+        printf("No records found.\n");
+        value = 0;
+    }
+
+    return value;
+}
+```
