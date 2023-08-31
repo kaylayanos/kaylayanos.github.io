@@ -20,5 +20,6 @@ Out of all the assignments in this class, this would be the most challening. I s
 ## Overall
 Overall, from this project, I was able to understand how pointers in C work. I was able to implement them and in the end, was able to complete everything including the writeFile and readFile functions. This project not only taught me implementation and code, but it also help me realize how bad my study/work habits were. The first project was to implement this code in C and like most college students, I procrastinated. In the end, I was able to finish it, but there were some errors with the writeFile and readFile functions. However, we did get a chance to write the code again, but in C++. This time I knew what to expect and set times to sit down and work. This helped me a lot because in the end, I was able to manage my time and completed and got everything to work!
 
-<img class="img-fluid" src="../img/database-project/database2.png"> <img class="img-fluid" src="../img/database-project/database3.png">
+<img class="img-fluid" src="../img/database-project/database2.png" width="300" height="300"> 
+<img class="img-fluid" src="../img/database-project/database3.png" width="300" height="300">
 
