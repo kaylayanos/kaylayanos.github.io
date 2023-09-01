@@ -11,7 +11,7 @@ summary: "I created a Sudoku Solver for one of my homework assignments for ICS21
 ---
 For this assignment, we were tasked to finish the fillSudoku function that would fill the sudoku table, using recusion. Recursion is one of those topics where it is simple at first, but on a large scale, it gets confusing and complex.
 
-Here is a snippit of my fillSudoku code:
+Here is a snippet of my fillSudoku code:
 ```java
   public static boolean fillSudoku (int [][] sudoku) {
     //1: BASE CASE
