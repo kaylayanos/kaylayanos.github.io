@@ -42,3 +42,15 @@ function goodExample(nums) {
   return total;
 }
 ```
+In this example, the code is so much mor easier to read. There are indents and spaces between operations. I would rather have this over the first example. When looking at this function, not only does it look better, but it also can be understood much faster. 
+
+However, spaces and indentation does not only mean for good coding standards, but includes clarity and readability, consistency, simplicity, and the one I think is the most important, documentation. 
+
+## Clarity and Readability
+By making your code uniform, you are make it clear and readable. This benefits not only yourself, but the people around you. This aspect includes consistent indentation, choice of naming your functions and variables, and more. 
+
+## Consistency and Simplicity
+Making your code consistent will make it easier to add on to your existing code. When you make your code consistent, it can reduce the amount of confusion for not only yourself, but for your colleagues as well. In addition to making it consistent, if you make it simple not only will it be easier to understand, but it will also be easier to fix, debug, and maintain.
+
+## Documentation
+Documentation might be the most important thing when it comes to coding standards. 
