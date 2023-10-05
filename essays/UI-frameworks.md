@@ -21,10 +21,11 @@ Personally, I thought that Bootstrap was hard and complex to use. This was my re
 To help me practice Bootstrap, I attempted to recreate [this](https://okomehawaii.menufy.com/) website:
 
 ### Real Website:
-<img src="../img/UI-frameworks/okome-real-1.png">
-<img src="../img/UI-frameworks/okome-real-2.png">
+<img width="500px" src="../img/UI-frameworks/okome-real-1.png">
+<img width="500px" src="../img/UI-frameworks/okome-real-2.png">
 
 ### Recreation:
-<img src="../img/UI-frameworks/okome-fake-1.png"><img src="../img/UI-frameworks/okome-fake-2.png">
+<img width="500px" src="../img/UI-frameworks/okome-fake-1.png">
+<img width="500px" src="../img/UI-frameworks/okome-fake-2.png">
 
 It's not 100% exact, but I think that I managed to create a very similar UI. Overall, this assignment was kind of fun and taught me a lot about how to use Bootstrap. 
