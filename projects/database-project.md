@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/database-project/database1.png
 title: "Bank Database Project"
-date: 2023
+date: 2023-03-27
 published: true
 labels:
   - C
