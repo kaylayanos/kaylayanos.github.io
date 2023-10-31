@@ -15,11 +15,11 @@ The problem: College students need equipment, but they don’t have money to pur
 The solution: Vendors can display items that others can borrow and any user can send a request to borrow any of them. Users have the right to view two different rating fields: rating as a borrower and rating as a vendor, where each are out of 5 stars. The borrowing rating indicates whether the user returns the item in good condition while the vendor rating indicates overall satisfaction from borrowers. 
 
 ## Mock-up Page Ideas
-Galley (Cards)
+Gallery (Cards)
 - **Gallery view of all requests**: item image, name, description, borrower rating
-- **Gallery view of all available items to borrow**: image, name, description, lender rating
+- **Gallery view of all available items to borrow**: item image, name, description, lender rating
 - **Gallery view of all users on the website** (search function)
-- **Galley view of items the user is loaning out after clicking on a certain user**
+- **Gallery view of items the user is loaning out after clicking on a certain user**
 
 Forms
 - **Post request**: title, description, quantity, condition, contact info
