@@ -10,9 +10,9 @@ labels:
 ---
 
 ## Overview
-The problem: College students need equipment, but they don’t have money to purchase a new one. Instead, they can borrow equipment and other students can loan their equipment. This way, students can borrow equipment with no cost, which builds trust in the UH Manoa community.
+**The problem**: College students need equipment, but they don’t have money to purchase a new one. Purchasing new equipement can be burdensome especailly with a tight budget or if they only need the item temporarily. Instead, with our solution, they can borrow equipment from other students at no extra costs, and other students can loan their equipment.
 
-The solution: Vendors can display items that others can borrow and any user can send a request to borrow any of them. Users have the right to view two different rating fields: rating as a borrower and rating as a vendor, where each are out of 5 stars. The borrowing rating indicates whether the user returns the item in good condition while the vendor rating indicates overall satisfaction from borrowers. 
+**The solution**: Vendors can display items that others can borrow and any user can send a request to borrow any of them. This way, students can borrow equipment with no cost, which builds trust in the UH Manoa community. Users have the right to view two different rating fields: rating as a borrower and rating as a vendor, where each are out of 5 stars. The borrowing rating indicates whether the user returns the item in good condition while the vendor rating indicates overall satisfaction from borrowers. 
 
 ## Mock-up Page Ideas
 Gallery (Cards)
@@ -23,7 +23,7 @@ Gallery (Cards)
 
 Forms
 - **Post request**: title, description, quantity, condition, contact info
-- **Post available item**: title, description, qunatity, condition, return by (send email notification), contact info
+- **Post available item**: title, description, quantity, condition, return by (send email notification), contact info
 - **Fulfill request**: item, condition, name, borrower rating, confirm/cancel
 
 ## Use Case Ideas
@@ -34,7 +34,7 @@ Forms
 **Admin User**: Admins are abe to view all items, and has the permission to remove items.
 
 ## Beyond the Basics
-Some advanced features we will try to implement is a search function to specifically search for an item/eqipment and to have a rating system where the loaners can rate the borrowers, and the borrowers can rate the loaners.
+Some advanced features we will try to implement is a search function to specifically search for an item/equipment and to have a rating system where the loaners can rate the borrowers, and the borrowers can rate the loaners.
 
 ## Authors
 Jiawen Chen, Truman Choy, Marcus Prudencio, Kayla Yanos
