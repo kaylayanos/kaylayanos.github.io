@@ -35,3 +35,6 @@ Forms
 
 ## Beyond the Basics
 Some advanced features we will try to implement is a search function to specifically search for an item/eqipment and to have a rating system where the loaners can rate the borrowers, and the borrowers can rate the loaners.
+
+## Authors
+Jiawen Chen, Truman Choy, Marcus Prudencio, Kayla Yanos
