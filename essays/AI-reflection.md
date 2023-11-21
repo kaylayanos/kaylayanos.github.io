@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The Power of Good Coding Standards"
+title: "AI Era"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-20
 published: true
