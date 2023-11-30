@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Design Patterns"
+title: "Taking Care of the Garden"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-29
 published: true
