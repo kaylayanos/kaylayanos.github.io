@@ -1,0 +1,90 @@
+{
+  "basics": {
+    "name": "Kayla Yanos",
+    "label": "Student",
+    "picture": "https://github.com/kaylayanos.png",
+    "email": "yanosk@hawaii.edu",
+    "website": "https://kaylayanos.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "kaylayanos", "url": "http://github.com/kaylayanos" },
+      { "network": "linkedin", "username": "Kayla Yanos", "url": "https://www.linkedin.com/in/kayla-yanos-75266624b/" },
+    ]
+  },
+  "interests": [
+    { "name": "Data Science" },
+    { "name": "Data Analytics" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Machine Learning" },
+    { "name": "Information Technology" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "Java", "C", "C++", "Javascript"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Git/GitHub"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Front Desk Student Assistant",
+      "website": "",
+      "startDate": "2022-07-26",
+      "endDate": "Present",
+      "summary": "Student Assistant",
+      "highlights": [
+        "Work independently/in group setting to complete projects with minimum supervision",
+        "Ability to recognize problems, identify possible causes, and resolve issues that commonly arises in customer/student/administrative services", 
+        "Assist students at the front desk: answer questions and make appropriate referrals to campus offices and advising units, schedule appointments via phone or in person", 
+        "Clerical work: filing, photocopying, updating evaluation database.",
+        "Social media management"
+      ]
+    },
+    
+  ],
+  "volunteer": [
+    {
+      "organization": "Supporting Women in Information Technology Hawaii (SWITCH) at UH Manoa",
+      "website": "",
+      "position": "Fundraising Director",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "Manage Club Finances",
+      "highlights": [
+        "Handle and manage funds related to club events",
+        "Create and present budget for club events",
+        "Plan fundraisers",
+      ]
+    },
+    
+  ],
+  "awards": [
+    {
+      "title": "Deans List",
+      "date": "2021-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Maintained a GPA of 3.5 or higher."
+    },
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

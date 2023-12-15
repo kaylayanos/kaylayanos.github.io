@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="The Power of Good Coding Standards | Kayla Yanos | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/kaylayanos.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kayla Yanos | Professional Portfolio">
+    <meta property="og:url" content="https://kaylayanos.github.io/essays/coding-standards.html">
+    <meta property="og:title" content="The Power of Good Coding Standards | Kayla Yanos | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/kaylayanos.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>The Power of Good Coding Standards | Kayla Yanos | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Kayla Yanos</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">The Power of Good Coding Standards</h1>
+  <span class="date">20 Sep 2023</span>
+  <hr>
+  <p>One of the many forgotten, but important aspects of coding is coding standards. Many people overlook coding standard because many might think that it is just indents, the placement of curly braces, etc. However, it can be the one difference that can make a significant impact on your software engineering journey. The purpose of coding standards is to design a thoughtful and uniform appearance to your code.</p>
+
+<h2 id="bad-coding-standards">Bad Coding Standards</h2>
+
+<p>As an example, look at this code:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">badexample</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">let</span> <span class="nx">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="k">while</span><span class="p">(</span><span class="nx">i</span><span class="o">&lt;</span><span class="nx">a</span><span class="p">.</span><span class="nx">length</span><span class="p">){</span><span class="nx">b</span><span class="o">+=</span><span class="nx">a</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span><span class="nx">i</span><span class="o">++</span><span class="p">;}</span>
+<span class="k">return</span> <span class="nx">b</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This code is simple enough where you can still understand what the function is doing. However, you can easily spend unnecessary time trying to understand it due to how low the readability is.</p>
+
+<h2 id="real-world-situation">Real World Situation</h2>
+<p>In the real world as a software engineer, you are most likely going to write more complex code with many variables and functions. If you write you code with poor coding standards, it can become very difficult to keep track and make sure all the variables and functions are working the way they are supposed to. If you are having a hard time doing this because of your poor coding standards, it can drop your productivity and work flow resulting in poor work performance. In addition to this, throughout the years you might change employers. If you leave your current workplace with code with poor coding standards, the new person that took your place will have no idea what you were trying to do. It would take them a while to figure out and understand what you were trying to do.</p>
+
+<h2 id="good-coding-standards">Good Coding Standards</h2>
+<p>Here is an example of good coding standards:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">goodExample</span><span class="p">(</span><span class="nx">nums</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">total</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">nums</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">total</span> <span class="o">+=</span> <span class="nx">nums</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+    <span class="nx">i</span><span class="o">++</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">total</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>In this example, the code is so much easier to read. There are indents and spaces between operations. I would rather have this over the first example. When looking at this function, not only does it look better, but it also can be understood much faster.</p>
+
+<p>However, spaces and indentation does not only mean for good coding standards, but includes clarity and readability, consistency, simplicity, and the one I think is the most important, documentation.</p>
+
+<h2 id="clarity-and-readability">Clarity and Readability</h2>
+<p>By making your code uniform, you are make it clear and readable. This benefits not only yourself, but the people around you. This aspect includes consistent formatting, choice of naming your functions and variables, and more. When you are using consistent formatting, this can include indentation, line length, etc., it makes the code visually cohesive and more understandable. By making meaningful function and variable names, you make it more clear what is going to be put in there, which enhances the code comprehension.</p>
+
+<h2 id="consistency-and-simplicity">Consistency and Simplicity</h2>
+<p>Making your code consistent will make it easier to add on to your existing code. When you make your code consistent, it can reduce the amount of confusion for not only yourself, but for your colleagues as well. In addition to making it consistent, if you make it simple not only will it be easier to understand, but it will also be easier to fix, debug, and maintain.</p>
+
+<h2 id="documentation">Documentation</h2>
+<p>Documentation might be the most important thing when it comes to coding standards. Documentation helps unsure that the code is understood by others. One important part of documentation is inline comments in the code. The purpose of comments is to explain the logic behind each line, clarifying complex sections, and providing more context to help others understand why it is there.</p>
+
+<p>Another part of documentation is the file level documentation for larger databases and API documentation. The documentation’s purpose is to provide an overview of the file’s contents and purpose. This is very crucial because it will be used to guide others who will/potential use your code.</p>
+
+<h2 id="benefits-of-good-coding-standards">Benefits of Good Coding Standards</h2>
+<p>Other than the benefits I have stated above, I firmly believe that when you code with good coding standards, it could help you with learning a programming language.  When you are learning a programming language before you get into all the algorithms and data structures, you first need to learn the syntax. By writing clean looking code, it allows you to focus on the language’s syntax and concepts without being distracted by messy or inconsistent code. When you write code with good coding standards, you are constantly writing cleaner, consistent, and understanding code.</p>
+
+<h2 id="eslint">ESLint</h2>
+<p>After spending a week of using ESLint with IntelliJ, personally, I like it. I would say that I have pretty good coding standards, but I always knew that I could do better in it. By using ESLint, it allowed me to see which parts were a bit unclear or not consistent. ESLint is very useful because not only does it help with good coding standards, but it also catches a lot of my mistakes such as variable naming. Usually, when I write my code, I get a lot of red “X”, however, I find it oddly satisfying trying to fix it and seeing the amount of X’s go down to none and seeing the green checkmark.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

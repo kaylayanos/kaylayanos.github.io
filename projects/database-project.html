@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bank Database Project | Kayla Yanos | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/kaylayanos.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kayla Yanos | Professional Portfolio">
+    <meta property="og:url" content="https://kaylayanos.github.io/projects/database-project.html">
+    <meta property="og:title" content="Bank Database Project | Kayla Yanos | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/kaylayanos.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Bank Database Project | Kayla Yanos | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Kayla Yanos</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Bank Database Project</h1>
+ <h2 id="the-task">The Task</h2>
+<p>For my ICS212 class, we had a project where we had to create and implement a database and interface for a bank application. The user was supposed to be able to add, delete, list all, and find information from the database. We were also tasked to find a way to store the data into a txt file, so when you run the program again, the data from when you last ran the program was in the database when you ran it again. In addition to that, we were tasked to create “debug mode” where when you compile the program, if you add the additional words debug into the terminal, it would run the debug version using global variables. This project was done twice, first in C, then in C++.</p>
+
+<h2 id="challenges">Challenges</h2>
+<p>Out of all the assignments in this class, this would be the most challening. I struggled a lot in trying to find a way to make a writeFile and readFile function so that when you exited the program, everything in the database was transferred to a txt file and when you ran the program, the program would read the txt and transfer everything into the database.</p>
+
+<h2 id="overall">Overall</h2>
+<p>Overall, from this project, I was able to understand how pointers in C work. I was able to implement them and in the end, was able to complete everything including the writeFile and readFile functions. This project not only taught me implementation and code, but it also help me realize how bad my study/work habits were. The first project was to implement this code in C and like most college students, I procrastinated. In the end, I was able to finish it, but there were some errors with the writeFile and readFile functions. However, we did get a chance to write the code again, but in C++. This time I knew what to expect and set times to sit down and work. This helped me a lot because in the end, I was able to manage my time and completed and got everything to work!</p>
+
+<p>Here is a snippet of code for one my functions:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">findRecord</span><span class="p">(</span><span class="k">struct</span> <span class="n">record</span> <span class="o">*</span><span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">uaccountno</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="n">record</span> <span class="o">*</span><span class="n">temp</span> <span class="o">=</span> <span class="n">start</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">value</span><span class="p">;</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="cm">/* 0 -&gt; failed, 1 -&gt; success */</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">debugmode</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"FIND RECORD FUNCTION CALLED</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"ACCOUNT NO TO FIND: %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">temp</span><span class="o">-&gt;</span><span class="n">accountno</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">do</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">temp</span><span class="o">-&gt;</span><span class="n">accountno</span> <span class="o">==</span> <span class="n">uaccountno</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s">"Account number: %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">temp</span><span class="o">-&gt;</span><span class="n">accountno</span><span class="p">);</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s">"Name: %s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">temp</span><span class="o">-&gt;</span><span class="n">name</span><span class="p">);</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s">"Address: %s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">temp</span><span class="o">-&gt;</span><span class="n">address</span><span class="p">);</span>
+            <span class="n">value</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="n">temp</span> <span class="o">=</span> <span class="n">temp</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">temp</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">);</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">value</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"No records found.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
